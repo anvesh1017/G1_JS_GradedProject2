@@ -138,11 +138,13 @@ function makeHtmlForApplicant(applicant) {
                     </div>
                     <h3>Internship</h3>
                     <div class="explanation-div">
-                         <p><b>Company Name:</b> ${applicant.Internship["Company Name"]}</p>
-                        <p><b>Position:</b> ${applicant.Internship.Position}</p>
-                        <p><b>Start Date:</b> ${applicant.Internship["Start Date"]}</p>
-                        <p><b>End Date:</b> ${applicant.Internship["End Date"]}</p>  
-                        <p><b>Summary:</b> ${applicant.Internship.Summary}</p>     
+                         <ul>
+                         <li><p><b>Company Name:</b> ${applicant.Internship["Company Name"]}</p></li>
+                        <li><p><b>Position:</b> ${applicant.Internship.Position}</p></li>
+                        <li><p><b>Start Date:</b> ${applicant.Internship["Start Date"]}</p></li>
+                        <li><p><b>End Date:</b> ${applicant.Internship["End Date"]}</p>  </li>
+                        <li><p><b>Summary:</b> ${applicant.Internship.Summary}</p>    </li>
+                         </ul> 
                     </div>
                     <h3>Achievements</h3>
                     <div class="explanation-div">
